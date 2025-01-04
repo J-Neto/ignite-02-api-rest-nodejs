@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --import tsx ./node_modules/.bin/knex",
-    "lint": "eslint src/**/*.ts"
+    "lint": "eslint src/**/*.ts",
+    "build": "tsup src --out-dir build",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -15,11 +17,15 @@
     "@eslint/js": "^9.17.0",
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^22.10.2",
+    "@types/supertest": "^6.0.2",
     "eslint": "^9.17.0",
     "globals": "^15.14.0",
+    "supertest": "^7.0.0",
+    "tsup": "^8.3.5",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.18.1"
+    "typescript-eslint": "^8.18.1",
+    "vitest": "^2.1.8"
   },
   "dependencies": {
     "@fastify/cookie": "^11.0.1",

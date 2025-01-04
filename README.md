@@ -12,3 +12,13 @@
 - [ ] O usuário só pode visualizar transações o qual ele criou;
 
 // Cookies <-> Formas da gente manter contexto entre requisições
+
+// Testes
+// Unitários: Unidade da sua aplicação (Formatar data) (Muitos)
+// Integração: Comunicação entre duas ou mais unidades (Alguns)
+// E2E - ponta a ponta: Simulam um usuário operando na nossa aplicação (Poucos)
+  //  - front-end: Quem testa é o usuário final. Abre a página de login, digite o texto diego@rocketseat.com.br com ID email, clique no botão
+  //  - back-end: Usuário é o front-end. Chamadas HTTP, WebSockets
+
+// Pirâmide de testes: E2E (não dependem de nenhuma tecnologia, não dependem de arquitetura)
+
